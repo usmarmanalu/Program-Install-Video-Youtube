@@ -11,6 +11,6 @@ for i in video:
 print("pengaturan durasi dan layout video : ")
 dnoption = int(input("masukkan pengaturan : "))
 dnvideo = videos[dnoption]
-dnvideo.dwonload()
+dnvideo.download()
 
 print("dwonload sukses")
