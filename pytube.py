@@ -1,7 +1,7 @@
 from pytube import YouTube
 
-link = input("URL Youtube : ")
-yt = YouTube(link)
+#link = input("URL Youtube : ")
+yt = YouTube("https://www.youtube.com/watch?v=yDDZxW76kac")
 
 videos = yt.streams.all()
 video = list(enumerate(videos))
